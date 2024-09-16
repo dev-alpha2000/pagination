@@ -28,4 +28,18 @@ Copy code
 npm start
 The app will be available at http://localhost:3000.
 
+Usage
+Display Paginated Data: The app fetches a dataset and displays it in a paginated format, showing a limited number of items per page.
+Page Navigation: Use the navigation buttons (next/previous or specific page numbers) to move between different pages of data.
+Adjust Page Size: Customize the number of items displayed on each page by modifying the itemsPerPage variable.
+Example
+When you open the app, you’ll see:
+
+A list of data items, such as users, posts, or products, displayed with pagination.
+Navigation controls at the bottom to move between different pages of the dataset.
+Dependencies
+React: Frontend framework for building the UI
+Axios or Fetch API: For fetching data from a server or API
+CSS Modules or Styled Components: For styling
+
 
